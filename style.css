@@ -1,0 +1,223 @@
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+	font-weight: normal;
+}
+
+.name-highlight {
+	font-size: 50px;
+	font-weight: 600;
+	color: #ec4c7a;
+}
+
+.title-bottom-spacing {
+	margin-bottom: 120px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+p {
+	color: #707070;
+}
+
+.banner-area {
+	background-image: url("images/header-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner-area::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.half-width {
+	width: 30%;
+	margin: 10%;
+	float: left;
+}
+
+.profile-image img {
+	width: 100%;
+}
+
+.button-links {
+	border: none;
+	border-radius: 3px;
+	background-color: deeppink;
+	background-image: linear-gradient(45deg, #ec4f91, #ed4b72);
+	color: #ffffff;
+	cursor: pointer;
+	padding: 12px 22px;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.biography-area {
+	background-image: url("images/biography-bg.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.biography-area::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.biography-image img {
+	width: 100%;
+}
+
+.latest-work-area {
+	background-image: url("images/latest-work-bg.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom right;
+	padding: 100px 0;
+}
+
+.latest-work-area::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.all-works {
+	width: 70%;
+	margin: auto;
+}
+
+.all-works h2 {
+	text-align: center;
+}
+
+.single-works {
+	width: 31.333%;
+	float: left;
+	margin-right: 3%;
+}
+
+.single-works:last-child {
+	margin-right: 0;
+}
+
+.single-works img {
+	width: 100%;
+}
+
+.testimonial-area {
+	background-image: url("images/footer-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	padding: 150px 0;
+	text-align: center;
+}
+
+.author-name-deg h4 {
+	margin-bottom: 2px;
+}
+.author-name-deg p {
+	margin-top: 0;
+}
+
+.full-testimonial {
+	margin: 40px auto;
+}
+
+.full-testimonial p {
+	color: #000;
+}
+
+.contact-info {
+	color: #ffffff;
+	background-color: #ec4f92;
+	background-image: linear-gradient(45deg, #ec4f92, #ed4b72);
+	padding: 20px 80px;
+	width: 50%;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.contact-info p {
+	color: #ffffff;
+}
+
+.contact-info h3 {
+	margin-top: 10px;
+}
+
+.experiences-area {
+	background-image: url("images/exp-bg.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 100px 0;
+}
+.experiences-area::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.experiences-area h2 {
+	text-align: center;
+}
+
+.experience-level {
+	width: 70%;
+	margin: auto;
+}
+
+#junior-web-dev {
+	margin-right: 5%;
+}
+
+#junior-web-dev,
+#fullstack-web-dev {
+	width: 45%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#junior-web-dev,
+#fullstack-web-dev {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 10px 10px 20px gray;
+	border-radius: 0 5px 5px 0;
+	position: relative;
+}
+
+#junior-web-dev::before,
+#fullstack-web-dev::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6px;
+	height: 100%;
+	background-color: tomato;
+	background-image: linear-gradient(#ec4f92, #ed4b72);
+}
+
+#junior-web-dev h2,
+#fullstack-web-dev h2 {
+	text-align: left;
+	font-size: 30px;
+}
+
+.footer-area {
+	text-align: center;
+	padding: 20px;
+}
